@@ -1,0 +1,81 @@
+#root {
+    padding: 1rem;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .register {
+        margin-left: -232px;
+    }
+}
+
+.header {
+    color: #ccc;
+    align-self: center;
+    padding-top: 5px;
+}
+
+.message {
+    position: center;
+    color: beige;
+    text-align: center;
+}
+
+.divider {
+    border-right: 1px solid #000;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+#addCourse {
+    width: 50%;
+}
+
+form {
+    padding: 1rem;
+}
+
+.courseInput {
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+label, input {
+    display: block;
+}
+
+.dashboard {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+.container {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    min-width: 100%;
+    /* align-items: center; */
+}
+
+.cards {
+    display: flex;
+}
+
+.card-body {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    bottom: 0;
+    align-items: baseline;
+}
